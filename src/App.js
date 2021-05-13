@@ -23,7 +23,6 @@ function App() {
       setItems(nodes);
     })();
   }, []);
-  console.log(items);
 
   return (
     <div>
