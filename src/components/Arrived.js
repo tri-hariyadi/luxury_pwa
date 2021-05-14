@@ -33,7 +33,7 @@ const Arrived = ({ items }) => {
       </div>
       <div className="overflow-x-hidden px-4" id="carousel">
         <div className="container mx-auto"></div>
-        <div className="z-10 overflow-x-scroll">
+        <div className="z-10 overflow-hidden">
           <div className="flex -mx-4 flex-row relative">
             {items && items.map((item, idx) => {
               return (
